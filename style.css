@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f7ef;
+    color: #1b4332;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+nav button {
+    background: #2d6a4f;
+    color: white;
+    padding: 12px 20px;
+    margin: 6px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background: #40916c;
+}
+
+#resultado {
+    margin-top: 30px;
+    background: #d8f3dc;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 150px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
